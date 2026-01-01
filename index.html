@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     input{
+        margin-bottom: 20px;
+     }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    
+    <form action="get" method="get">
+            <fieldset>
+                <legend>student registration form 
+        </legend>
+            
+            <label for="rol number">roll number:
+
+                <input type="text" name="roll number" maxlength="6">    
+            </label>
+            <br> 
+            <label for="student name">student name:
+                <input type="text" placeholder="first name" >  -
+                <input type="text" placeholder="last name">
+            </label>
+            <br>
+            <label for="father name">father's name:
+
+                <input type="text" name="father name"> 
+            </label>
+            <br>
+            <label for="DOB">Date of Birth:
+
+                <input type="date" name="DOB">   
+            </label>
+            <br> 
+            <label for="mobile no."> mobile number:
+
+                <input type="tel" maxlength="11">
+            </label>
+            <br>
+            <label for="E mail id">E mail id:
+
+                <input type="email" name="E mail id"> 
+            </label>
+            <br>
+            <label for="password">password:
+
+                <input type="password" name="password"> 
+            </label>
+            <br>   
+            <label for="gender">Gneder:
+                <input type="radio" name="gender">male
+                <input type="radio" name="gender">female
+            </label>   
+            <br>
+            <label for="Subject">Subject:
+                <input type="checkbox" name="Subject">Accounting
+                <input type="checkbox" name="Subject">Business Math
+                <input type="checkbox" name="Subject">Principle Of Commerce 
+                <input type="checkbox" name="Subject">Principle Of Economics
+                <input type="checkbox" name="Subject" checked>English
+                <input type="checkbox" name="Subject"checked>Urdu
+                <input type="checkbox" name="Subject"checked>Islamiat
+            </label>
+            <br>
+            <label for="course"> Course:
+                <select name="course" >
+                    <option selected disabled>------- Select Current Course's------</option>
+                    <option >Web and App Development</option>
+                    <option >Agentic AI</option>
+                    <option >Cyber Secuirty</option>
+                    <option >Graphic Designinig With AI</option>
+                </select>
+            </label>
+            <br>
+            <label for="student photo">Student photo:
+                <input type="image"  alt="choose file " placeholder="choose file ">
+            </label>
+            <br>
+            <label for="address">Address:
+                <input type="text" width="100px">
+            </label>
+            <br>
+
+            <input type="submit">  
+        </form>
+    </fieldset>
+    
+</body>
+</html>
